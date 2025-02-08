@@ -16,3 +16,35 @@
     background: var(--bg-gradient2);
 }
 
+.top-shape-gray::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 510px;
+    width: 100%;
+    background: var(--bg-gradient2);
+    z-index: -1;
+}
+
+.bg-grad {
+    background-color: var(--bg-gradient2) !important;
+}
+
+.bg-gray {
+    background: var(--bg-gradient2);
+}
+
+.bg-gray-1 {
+    background-color: rgb(186, 186, 186);
+}
+
+
+.blog-area .meta li a{
+    font-weight: 400;
+    color: black;
+}
+
+.blog-area .meta li {
+ color: black;
+}
