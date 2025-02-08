@@ -1,0 +1,18 @@
+:root {
+    --color-primary2: #5351FD;
+    --color-secondary2: #BB08B2;
+    --bg-gradient2: linear-gradient(90deg, #5351FD 20%, #BB08B2 100%);
+}
+
+.about-thumb .user-fun-fact{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: var(--bg-gradient2);
+    padding: 50px; 
+}
+
+.team-box::after {
+    background: var(--bg-gradient2);
+}
+
