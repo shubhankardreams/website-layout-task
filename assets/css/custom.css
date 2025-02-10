@@ -52,3 +52,8 @@
 .choose-us-thumb {
     border-bottom: 0px;
 }
+
+.services-style-one.active::after {
+        content: none !important;
+        display: none !important;
+}
